@@ -1,4 +1,4 @@
-<!--
+ <!--
 		///////////////////////////////////////////////////////////////////////////////////////
 		// jieun's web page - index.html 
 
@@ -24,15 +24,33 @@
 		Jieun Kwon
 		</h3> 
 	
-		<div id="top_menu" >
-			<div class="menu_small">
-			  | home  
-			  | <a href="index.html">profile</a>  
-			  | <a href="index.html">portfolio</a>  
-			  | <a href="index.html">study</a>  
-			  | <a href="index.html">contact</a>  
+		 
+			  | <a href="index.html">home</a>
+			  - <a href="#!profile">profile</a>  
+			  - <a href="#!portfolio">portfolio</a>  
+			  - <a href="#!study">study</a>  
+			  - <a href="#!contact">contact</a>  
 			  | 
+		
+		<p id="profile">
+		profile
+			<div height="200px">
+			datadddd
 			</div>
-		</div> 
+		</p>
+		
+		<p id="portfolio">
+		portfolio
+		</p>
+		<script>
+			function fPage(name){
+			}
+			if(location.hash) {
+				console.log(location.hash.substr(1));
+			} else {
+			
+			} 
+		</script>
 	</body>
 </html>
+	
