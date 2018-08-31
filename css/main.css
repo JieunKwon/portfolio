@@ -1,31 +1,39 @@
-			/*************************************/
+ 			/*************************************/
 			/* 	Index page & general css		 */
 			/*************************************/
 			
 			body {
 				margin:10px auto;
 				text-align:left; 
+				width:80%;  
 				
 			}
 			
 			.menu_small{
 				background-color:#ffffff; 
 				height:20px;
-				width:80%;  
+				
 				text-align:left;  
-				font-size:10px; 
+				font-size:12px; 
 				color:#2BA5BA;
 				 
 			}
   
 			
-  
-			 
-			a:hover{
-				text-decoration: underline;
-				background:#66ff66;
+			a:link, a:visited {
+				background-color: white;
+				color: black;
+				border: 2px solid gray;
+				border-radius:5px;
+				padding: 5px 10px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
 			}
 
+			a:hover, a:active {
+				background-color: #f3f1f1; 
+			}
 			 
 
 			 
