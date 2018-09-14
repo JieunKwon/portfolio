@@ -1,4 +1,4 @@
- 			/*************************************/
+			/*************************************/
 			/* 	Index page & general css		 */
 			/*************************************/
 			
@@ -20,7 +20,7 @@
 			}
   
 			
-			a:link, a:visited {
+			.top_menu {
 				background-color: white;
 				color: black;
 				border: 2px solid gray;
@@ -31,7 +31,7 @@
 				display: inline-block;
 			}
 
-			a:hover, a:active {
+			.top_menu:hover, .top_menu:active {
 				background-color: #f3f1f1; 
 			}
 			 
@@ -43,7 +43,12 @@
 				font-size:20px;
 			}
 			
-			
+			a:link, a:visited, a:hover, a:active { 
+				color: black; 
+				text-decoration: none; 
+			}
+
+			 
 			
 		 
 			
