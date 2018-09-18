@@ -1,4 +1,6 @@
-# portfolio
+# My own website : jieun.ga
+# September 2018 
+
 # HTML5, CSS, JS, AJax
 
 it is to build my portfolio website
@@ -10,4 +12,5 @@ it is to build my portfolio website
 2. September 23, 2018
    complete Profile.html
    
-   
+3. September 30, 2018
+   complete Project.html  
