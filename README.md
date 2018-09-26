@@ -1,3 +1,5 @@
 # jieun.ga
 
-Test version before publishing 
+for my personal website 
+
+
